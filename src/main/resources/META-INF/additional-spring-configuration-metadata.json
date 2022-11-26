@@ -8,5 +8,10 @@
     "name": "scheduler.cron",
     "type": "java.lang.String",
     "description": "A description for 'scheduler.cron'"
+  },
+  {
+    "name": "scheduler.timezone",
+    "type": "java.lang.String",
+    "description": "A description for 'scheduler.timezone'"
   }
 ]}
