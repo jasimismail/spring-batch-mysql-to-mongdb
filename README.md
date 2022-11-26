@@ -1,6 +1,6 @@
-# Spring Batch Examples - MySQL to MongoDB 
+# Spring Batch Example - MySQL to MongoDB 
 
-Project with examples using Spring Boot and Spring Batch.
+An example project using Spring Boot and Spring Batch.
 
 This project shows how to configure a Spring Batch job to read data from MySQL database and copies to a NoSQL database - MongoDB with the help of scheduler batch processing and spring boot.
 
@@ -27,7 +27,7 @@ The guides below illustrate how to correctly use some spring batch features:
 * [Creating a Batch Service](https://spring.io/guides/gs/batch-processing/)
 
 ### Environment variables
-The `application.properties` file in the `src / main / resources` folder contains the environment variables that will be used by the application.
+The `application.properties` file in the `src\main\resources` folder contains the environment variables that will be used by the application.
 If no environment variable is informed, the deafult values ​​will be used.
 Description of the variables:
 
@@ -45,7 +45,6 @@ Description of the variables:
 * `scheduler.timezone` : The cron expression is evaluated based on this time zone. The default value is UTC.
 
 ### How to run
-
 This application will copy values from one repository to another repository. Here source repository is a MySQL database and the destination repository is MongoDB. The primary aim is that Move all the values from the MySQL database which is Cities in the world to the Mongo database. And this migration happens with the use of various classes provided by Spring Batch.
 
 * You can run start the application with the help of maven and apache tomcat as any spring boot runs.
@@ -53,7 +52,7 @@ This application will copy values from one repository to another repository. Her
 * You can also configure the batch process as a scheduled job. You can configure the time in environment variables as mentioned above.
 
 ### Issue
-This repository is maintained actively, so if you face any issue please <a href="#">raise an issue</a>.
+This repository isn't maintained actively, so if you face any issue please <a href="https://github.com/jasimismail/spring-batch-mysql-to-mongdb/issues">raise an issue</a>.
 
 #### Liked the work?
 Give the repository a star :-)
